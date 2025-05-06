@@ -1,4 +1,4 @@
-<?php include __DIR__."/header.php"; ?>
+<?php include __DIR__."/layouts/header.php"; ?>
 <section class="section">
     <div class="container container-login">
         <div class="row">
@@ -34,5 +34,5 @@
         </div>
     </div>
 </section>
-<?php include __DIR__."/footer.php"; ?>
+<?php include __DIR__."/layouts/footer.php"; ?>
     
