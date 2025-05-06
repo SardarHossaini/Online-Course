@@ -1,15 +1,9 @@
 <?php 
-include __DIR__."layouts/header.php";
-
-include __DIR__."layouts/nav.php";
-include __DIR__."layouts/sidebar.php";
+include __DIR__."/layouts/header.php";
+include __DIR__."/layouts/nav.php";
+include __DIR__."/layouts/sidebar.php";
 
  ?>
-
-
-
-
-
 
 
 <div class="main-content">
@@ -66,4 +60,4 @@ include __DIR__."layouts/sidebar.php";
         </div>
     </section>
 </div>
-<?php include __DIR__."layouts/footer.php"; ?>
+<?php include __DIR__."/layouts/footer.php"; ?>

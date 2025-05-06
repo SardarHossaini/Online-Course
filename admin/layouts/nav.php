@@ -11,7 +11,7 @@
         </li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <img alt="image" src="uploads/user.jpg" class="rounded-circle-custom">
+                <img alt="image" src="../../dist-admin/images/user.jpg" class="rounded-circle-custom">
             </a>
             <ul class="dropdown-menu dropdown-menu-end">
                 <li><a class="dropdown-item" href="profile.html"><i class="far fa-user"></i> Edit Profile</a></li>
