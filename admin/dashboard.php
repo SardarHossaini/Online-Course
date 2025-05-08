@@ -3,7 +3,12 @@ include __DIR__."/layouts/header.php";
 include __DIR__."/layouts/nav.php";
 include __DIR__."/layouts/sidebar.php";
 
+
+if(!isset($_SESSION['admin'])){
+    header('location:'.ADMIN_URL.'login.php');
+}
  ?>
+
 
 
 <div class="main-content">
