@@ -9,12 +9,14 @@
         <li class="nav-link">
             <a href="" target="_blank" class="btn btn-warning">Front End</a>
         </li>
+        <li class="nav-link"><?= $_SESSION['admin']['full_name']; ?></li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <img alt="image" src="../../dist-admin/images/user.jpg" class="rounded-circle-custom">
+                
             </a>
             <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="profile.html"><i class="far fa-user"></i> Edit Profile</a></li>
+                <li><a class="dropdown-item" href="profile.php"><i class="far fa-user"></i> Edit Profile</a></li>
                 <li><a class="dropdown-item" href="logout.php"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
             </ul>
         </li>
