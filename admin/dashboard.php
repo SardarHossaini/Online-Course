@@ -5,7 +5,7 @@ include __DIR__."/layouts/sidebar.php";
 
 
 if(!isset($_SESSION['admin'])){
-    header('location:'.ADMIN_URL.'login.php');
+    header('location:/admin/login.php');
 }
  ?>
 

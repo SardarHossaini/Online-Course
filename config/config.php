@@ -9,12 +9,12 @@ try{
 }catch(PDOException $exception){
   echo "Connection error". $exception->getMessage();
 }
-define("BASE_URL","http://localhost:4000/");
-define("ADMIN_URL",BASE_URL."admin/");
+// define("BASE_URL","http://localhost:4000/");
+// define("ADMIN_URL",BASE_URL."admin/");
 
-define("SMTP_HOST","sandbox.smtp.mailtrap.io");
-define("SMTP_PORT","sandbox.smtp.mailtrap.io");
-define("SMTP_USERNAME","sandbox.smtp.mailtrap.io");
-define("SMTP_PASSWORD","sandbox.smtp.mailtrap.io");
+// define("SMTP_HOST","sandbox.smtp.mailtrap.io");
+// define("SMTP_PORT","sandbox.smtp.mailtrap.io");
+// define("SMTP_USERNAME","sandbox.smtp.mailtrap.io");
+// define("SMTP_PASSWORD","sandbox.smtp.mailtrap.io");
 
 

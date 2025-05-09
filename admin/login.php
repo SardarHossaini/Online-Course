@@ -1,4 +1,38 @@
-<?php include __DIR__."/layouts/header.php"; ?>
+<?php 
+include __DIR__."/layouts/header.php"; 
+require __DIR__."/../config/config.php";
+?>
+
+<?php 
+if(!empty($_POST)){
+    try{
+        if(empty($_POST['email'])){
+            throw new Exception("email is required");
+        }
+        if(!filter_var($_POST['email'],FILTER_VALIDATE_EMAIL)){
+            throw new Exception('email is invalid');
+        }
+        if(empty($_POST['password'])){
+            throw new Exception('password is required');
+        }
+        $stsm=$pdo->prepare("SELECT * FROM users WHERE email=? AND role=?");
+        $stsm->execute([$_POST['email'],'admin']);
+        $totalCount=$stsm->rowCount();
+        if(!$totalCount){throw new Exception("email is not found");}
+        else{
+            $result=$stsm->fetchAll(PDO::FETCH_ASSOC);
+            foreach($result as $row){
+                $password=$row['password'];
+                if(!password_verify($_POST['password'],$password)){throw new Exception("password does not match");}
+            }
+        }
+        $_SESSION['admin']=$row;
+        header('location:dashboard.php');
+    }catch(Exception $e){
+        $error_message=$e->getMessage();
+    }
+}
+?>
 <section class="section">
     <div class="container container-login">
         <div class="row">
@@ -7,8 +41,14 @@
                     <div class="card-header card-header-auth">
                         <h4 class="text-center">Admin Panel Login</h4>
                     </div>
+                    
                     <div class="card-body card-body-auth">
-                        <form method="POST" action="index.html">
+                        <?php 
+                        if(isset($error_message)){
+                            echo $error_message;
+                        }
+                    ?>
+                        <form method="POST" action="login.php">
                             <div class="form-group">
                                 <input type="email" class="form-control" name="email" placeholder="Email Address" value="" autofocus>
                             </div>
@@ -16,7 +56,7 @@
                                 <input type="password" class="form-control" name="password"  placeholder="Password">
                             </div>
                             <div class="form-group">
-                                <button type="submit" class="btn btn-primary btn-lg w_100_p">
+                                <button type="submit" class="btn btn-primary btn-lg w_100_p" name="form-login">
                                     Login
                                 </button>
                             </div>
