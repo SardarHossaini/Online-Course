@@ -16,17 +16,23 @@ if(!empty($_POST)){
         if(!filter_var($_POST['email'],FILTER_VALIDATE_EMAIL)){
             throw new Exception('email is not valid');
         }
+        
+        
+        if(!empty($_POST['new_password']) && !empty($_POST['retype_password'])){
+            if($_POST['retype_password']!=$_POST['new_password']){
+                throw new Exception('retype password is not match to password');
+            }else{
+                $password=password_hash($_POST['new_password'],PASSWORD_DEFAULT);
+                $stsm=$pdo->prepare('UPDATE users SET password=? WHERE id=?');
+                $stsm->execute([$password,$_SESSION['admin']['id']]);
+            }
+        }
         $stsm=$pdo->prepare('UPDATE users SET full_name=?, email=? WHERE id=?');
         $stsm->execute([$_POST['name'],$_POST['email'],$_SESSION['admin']['id']]);
         $success_messsage="Profile data is updated successfuly";
         $_SESSION['admin']['full_name']=$_POST['name'];
         $_SESSION['admin']['email']=$_POST['email'];
-        // if(empty($_POST['new_password'])){
-        //     throw new Exception('password is required');
-        // }
-        // if($_POST['retype_password']!=$_POST['new_password']){
-        //     throw new Exception('retype password is not match to password');
-        // }
+        
     }catch(Exception $e){
         $error_message=$e->getMessage();
     }
