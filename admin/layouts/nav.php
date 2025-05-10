@@ -9,11 +9,14 @@
         <li class="nav-link">
             <a href="" target="_blank" class="btn btn-warning">Front End</a>
         </li>
-        <li class="nav-link"><?= $_SESSION['admin']['full_name']; ?></li>
+        <li class="nav-link mt-2"><?= $_SESSION['admin']['full_name']; ?></li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <img alt="image" src="../../dist-admin/images/user.jpg" class="rounded-circle-custom">
-                
+                <?php if(empty($_SESSION['admin']['photo'])): ?>
+                    <img alt="image" src="../../dist-admin/images/default.png" class="rounded-circle-custom">
+                <?php else: ?>
+                    <img alt="image" src="../../dist-admin/images/<?= $_SESSION['admin']['photo'] ?>" class="rounded-circle-custom">
+                <?php endif; ?>
             </a>
             <ul class="dropdown-menu dropdown-menu-end">
                 <li><a class="dropdown-item" href="profile.php"><i class="far fa-user"></i> Edit Profile</a></li>
