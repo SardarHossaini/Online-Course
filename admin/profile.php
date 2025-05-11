@@ -16,7 +16,6 @@ if(!empty($_POST)){
         if(!filter_var($_POST['email'],FILTER_VALIDATE_EMAIL)){
             throw new Exception('email is not valid');
         }
-        var_dump($_FILES['photo']);
         if(!empty($_FILES['photo']['name'])){
             $path=$_FILES['photo']['name'];
             $path_tmp=$_FILES['photo']['tmp_name'];
@@ -32,7 +31,8 @@ if(!empty($_POST)){
                 move_uploaded_file($path_tmp,'../uploads/'.$filename);
                 $stsm=$pdo->prepare('UPDATE users SET photo=? WHERE id=?');
                 $stsm->execute([$filename,$_SESSION['admin']['id']]);
-                $_SESSION['admin']['photo']=$filename;   
+                $_SESSION['admin']['photo']=$filename;  
+                 
                 
             }else{
                 throw new Exception("Please upload a valid image");
