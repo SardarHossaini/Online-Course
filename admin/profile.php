@@ -16,8 +16,30 @@ if(!empty($_POST)){
         if(!filter_var($_POST['email'],FILTER_VALIDATE_EMAIL)){
             throw new Exception('email is not valid');
         }
-        
-        
+        var_dump($_FILES['photo']);
+        if(!empty($_FILES['photo']['name'])){
+            $path=$_FILES['photo']['name'];
+            $path_tmp=$_FILES['photo']['tmp_name'];
+
+            $extenstion=pathinfo($path,PATHINFO_EXTENSION);
+            $filename=time().".".$extenstion;
+            
+            // $finfo=finfo_open(FILEINFO_MIME_TYPE);
+            // $mime=finfo_file($finfo,$path_tmp);
+            
+            if(in_array($extenstion,['png','jpg'])){
+                copy($path_tmp,'../uploads/'.$filename);
+                move_uploaded_file($path_tmp,'../uploads/'.$filename);
+                $stsm=$pdo->prepare('UPDATE users SET photo=? WHERE id=?');
+                $stsm->execute([$filename,$_SESSION['admin']['id']]);
+                $_SESSION['admin']['photo']=$filename;   
+                
+            }else{
+                throw new Exception("Please upload a valid image");
+            }
+        }else{
+            throw new Exception("Image is empty");
+        }
         if(!empty($_POST['new_password']) && !empty($_POST['retype_password'])){
             if($_POST['retype_password']!=$_POST['new_password']){
                 throw new Exception('retype password is not match to password');
@@ -55,10 +77,10 @@ if(!empty($_POST)){
                             <form action="profile.php" method="post" enctype="multipart/form-data">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <?php if(empty($_SESSION['admin']['photo'])): ?>
-                                            <img src="../dist-admin/images/default.png" alt="" class="profile-photo w_100_p">
+                                        <?php if($_SESSION['admin']['photo']==""): ?>
+                                            <img src="../uploads/default.png" alt="" class="profile-photo w_100_p">
                                         <?php else: ?>
-                                            <img src="../dist-admin/images/<?= $_SESSION['admin']['photo'] ?>" alt="" class="profile-photo w_100_p">
+                                            <img src="../uploads/<?= $_SESSION['admin']['photo'] ?>" alt="" class="profile-photo w_100_p">
                                         <?php endif; ?>
                                         <input type="file" class="mt_10" name="photo">
                                     </div>
