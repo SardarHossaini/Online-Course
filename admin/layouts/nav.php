@@ -12,7 +12,7 @@
         <li class="nav-link mt-2"><?= $_SESSION['admin']['full_name']; ?></li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <?php if($_SESSION['admin']['photo']==""): ?>
+                <?php if(empty($_SESSION['admin']['photo'])): ?>
                     <img alt="image" src="../../uploads/default.png" class="rounded-circle-custom">
                 <?php else: ?>
                     <img alt="image" src="../../uploads/<?= $_SESSION['admin']['photo'] ?>" class="rounded-circle-custom">
