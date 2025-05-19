@@ -1,6 +1,6 @@
 <?php
 $dbhost='localhost';
-$dbname='admin_panel_php';
+$dbname='online_course';
 $dbuser='root';
 $dbpass='';
 try{

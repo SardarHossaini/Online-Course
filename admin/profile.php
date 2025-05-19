@@ -29,7 +29,7 @@ if(!empty($_POST)){
             if(in_array($extenstion,['png','jpg'])){
                 copy($path_tmp,'../uploads/'.$filename);
                 move_uploaded_file($path_tmp,'../uploads/'.$filename);
-                $stsm=$pdo->prepare('UPDATE users SET photo=? WHERE id=?');
+                $stsm=$pdo->prepare('UPDATE admins SET photo=? WHERE id=?');
                 $stsm->execute([$filename,$_SESSION['admin']['id']]);
                 $_SESSION['admin']['photo']=$filename;  
                  
@@ -45,11 +45,11 @@ if(!empty($_POST)){
                 throw new Exception('retype password is not match to password');
             }else{
                 $password=password_hash($_POST['new_password'],PASSWORD_DEFAULT);
-                $stsm=$pdo->prepare('UPDATE users SET password=? WHERE id=?');
+                $stsm=$pdo->prepare('UPDATE admins SET password=? WHERE id=?');
                 $stsm->execute([$password,$_SESSION['admin']['id']]);
             }
         }
-        $stsm=$pdo->prepare('UPDATE users SET full_name=?, email=? WHERE id=?');
+        $stsm=$pdo->prepare('UPDATE admins SET full_name=?, email=? WHERE id=?');
         $stsm->execute([$_POST['name'],$_POST['email'],$_SESSION['admin']['id']]);
         $success_messsage="Profile data is updated successfuly";
         $_SESSION['admin']['full_name']=$_POST['name'];

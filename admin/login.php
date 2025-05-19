@@ -18,7 +18,7 @@ if(!empty($_POST)){
         if(empty($_POST['password'])){
             throw new Exception('password is required');
         }
-        $stsm=$pdo->prepare("SELECT * FROM users WHERE email=? AND role=?");
+        $stsm=$pdo->prepare("SELECT * FROM admins WHERE email=? AND role=?");
         $stsm->execute([$_POST['email'],'admin']);
         $totalCount=$stsm->rowCount();
         if(!$totalCount){throw new Exception("email is not found");}
