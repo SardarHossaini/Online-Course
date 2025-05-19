@@ -12,13 +12,19 @@ if(!empty($_POST)){
         if(!filter_var($_POST['email'],FILTER_VALIDATE_EMAIL)){
             throw new Exception('email is invalid');
         }
-        $stsm=$pdo->prepare("SELECT * FROM users WHERE email=? AND role=?");
+        $stsm=$pdo->prepare("SELECT * FROM admins WHERE email=? AND role=?");
         $stsm->execute([$_POST['email'],'admin']);
         $totalCount=$stsm->rowCount();
         if(!$totalCount){throw new Exception("email is not found");}
         $success_message='Check your email we send reset password link for you!';
+        $_SESSION['success_message']=$success_message;
+        header('location:forget-password.php');
+        exit;
     }catch(Exception $e){
         $error_message=$e->getMessage();
+        $_SESSION["error_message"]=$error_message;
+        header('location:forget-password.php');
+        exit;
     }
 }
 ?>
@@ -32,14 +38,6 @@ if(!empty($_POST)){
                     </div>
                     
                     <div class="card-body card-body-auth">
-                        <?php 
-                        if(isset($error_message)){
-                            echo $error_message;
-                        }
-                        if(isset($success_message)){
-                            ?><script>alert("<?= $success_message; ?>")</script><?php 
-                        }
-                    ?>
                         <form method="POST" action="forget-password.php">
                             <div class="form-group">
                                 <input type="email" class="form-control" name="email" placeholder="Email Address" value="" autofocus>

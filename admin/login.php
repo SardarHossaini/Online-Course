@@ -30,9 +30,14 @@ if(!empty($_POST)){
             }
         }
         $_SESSION['admin']=$row;
+        $_SESSION['success_message']="You are logged in successfully";
         header('location:dashboard.php');
+        exit;
     }catch(Exception $e){
         $error_message=$e->getMessage();
+        $_SESSION['error_message']=$error_message;
+        header('location:login.php');
+        exit;
     }
 }
 ?>
@@ -46,12 +51,6 @@ if(!empty($_POST)){
                     </div>
                     
                     <div class="card-body card-body-auth">
-                        
-                    <?php if(isset($error_message)): ?>
-                        <div class="alert alert-danger" id="alert" role="alert">
-                            <?= $error_message; ?>
-                        </div>
-                    <?php endif; ?>
                         <form method="POST" action="login.php">
                             <div class="form-group">
                                 <input type="email" class="form-control" name="email" placeholder="Email Address" value="" autofocus>

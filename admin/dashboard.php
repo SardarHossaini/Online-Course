@@ -5,7 +5,9 @@ include __DIR__."/layouts/sidebar.php";
 
 
 if(!isset($_SESSION['admin'])){
+    $_SESSION['error_message']="Please login first!";
     header('location:/admin/login.php');
+    exit;
 }
  ?>
 
