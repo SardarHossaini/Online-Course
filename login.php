@@ -7,7 +7,7 @@
                 <h2>Login</h2>
                 <div class="breadcrumb-container">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item active">Login</li>
                     </ol>
                 </div>
@@ -33,7 +33,7 @@
                     <div class="tab-pane fade show active" id="student" role="tabpanel" aria-labelledby="student-tab" tabindex="0">
                         <!-- form content -->
                         <div class="login-form">
-                            <form action="student-dashboard.html" method="post">
+                            <form action="student-dashboard.php" method="post">
                                 <div class="mb-3">
                                     <label for="" class="form-label">Email Address</label>
                                     <input type="text" class="form-control">
@@ -46,11 +46,11 @@
                                     <button type="submit" class="btn btn-primary bg-website">
                                         Login
                                     </button>
-                                    <a href="forget-password.html" class="primary-color">Forget Password?</a>
+                                    <a href="forget-password.php" class="primary-color">Forget Password?</a>
                                 </div>
                             </form>
                             <div class="mb-3">
-                                <a href="register.html" class="primary-color">Don't have an account? Create Account</a>
+                                <a href="register.php" class="primary-color">Don't have an account? Create Account</a>
                             </div>
                         </div>
                         <!-- // form content -->
@@ -58,7 +58,7 @@
                     <div class="tab-pane fade" id="instructor" role="tabpanel" aria-labelledby="instructor-tab" tabindex="0">
                         <!-- form content -->
                         <div class="login-form">
-                            <form action="instructor-dashboard.html" method="post">
+                            <form action="instructor-dashboard.php" method="post">
                                 <div class="mb-3">
                                     <label for="" class="form-label">Email Address</label>
                                     <input type="text" class="form-control">
@@ -71,11 +71,11 @@
                                     <button type="submit" class="btn btn-primary bg-website">
                                         Login
                                     </button>
-                                    <a href="forget-password.html" class="primary-color">Forget Password?</a>
+                                    <a href="forget-password.php" class="primary-color">Forget Password?</a>
                                 </div>
                             </form>
                             <div class="mb-3">
-                                <a href="register.html" class="primary-color">Don't have an account? Create Account</a>
+                                <a href="register.php" class="primary-color">Don't have an account? Create Account</a>
                             </div>
                         </div>
                         <!-- // form content -->

@@ -7,7 +7,7 @@
                 <h2>Courses</h2>
                 <div class="breadcrumb-container">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item active">Courses</li>
                     </ol>
                 </div>
@@ -214,14 +214,14 @@
                     <div class="col-xl-4 col-lg-6 col-md-12">
                         <div class="item pb_25">
                             <div class="photo">
-                                <a href="course.html"><img src="uploads/course-1.jpg" alt=""></a>
+                                <a href="course.php"><img src="uploads/course-1.jpg" alt=""></a>
                                 <div class="wishlist">
                                     <a href=""><i class="far fa-heart"></i></a>
                                 </div>
                             </div>
                             <div class="text">
                                 <h2>
-                                    <a href="course.html">WordPress Theme Development</a>
+                                    <a href="course.php">WordPress Theme Development</a>
                                 </h2>
                                 <div class="category">
                                     <span class="badge bg-primary"><a href="">Web Development</a></span>
@@ -251,14 +251,14 @@
                     <div class="col-xl-4 col-lg-6 col-md-12">
                         <div class="item pb_25">
                             <div class="photo">
-                                <a href="course.html"><img src="uploads/course-2.jpg" alt=""></a>
+                                <a href="course.php"><img src="uploads/course-2.jpg" alt=""></a>
                                 <div class="wishlist">
                                     <a href=""><i class="far fa-heart"></i></a>
                                 </div>
                             </div>
                             <div class="text">
                                 <h2>
-                                    <a href="course.html">Laravel Framework Full Course</a>
+                                    <a href="course.php">Laravel Framework Full Course</a>
                                 </h2>
                                 <div class="category">
                                     <span class="badge bg-primary"><a href="">Web Development</a></span>
@@ -288,14 +288,14 @@
                     <div class="col-xl-4 col-lg-6 col-md-12">
                         <div class="item pb_25">
                             <div class="photo">
-                                <a href="course.html"><img src="uploads/course-3.jpg" alt=""></a>
+                                <a href="course.php"><img src="uploads/course-3.jpg" alt=""></a>
                                 <div class="wishlist">
                                     <a href=""><i class="far fa-heart"></i></a>
                                 </div>
                             </div>
                             <div class="text">
                                 <h2>
-                                    <a href="course.html">Complete Learning with Python</a>
+                                    <a href="course.php">Complete Learning with Python</a>
                                 </h2>
                                 <div class="category">
                                     <span class="badge bg-primary"><a href="">Web Development</a></span>
@@ -325,14 +325,14 @@
                     <div class="col-xl-4 col-lg-6 col-md-12">
                         <div class="item pb_25">
                             <div class="photo">
-                                <a href="course.html"><img src="uploads/course-4.jpg" alt=""></a>
+                                <a href="course.php"><img src="uploads/course-4.jpg" alt=""></a>
                                 <div class="wishlist">
                                     <a href=""><i class="far fa-heart"></i></a>
                                 </div>
                             </div>
                             <div class="text">
                                 <h2>
-                                    <a href="course.html">Laravel Framework Full Course</a>
+                                    <a href="course.php">Laravel Framework Full Course</a>
                                 </h2>
                                 <div class="category">
                                     <span class="badge bg-primary"><a href="">Web Development</a></span>
@@ -362,14 +362,14 @@
                     <div class="col-xl-4 col-lg-6 col-md-12">
                         <div class="item pb_25">
                             <div class="photo">
-                                <a href="course.html"><img src="uploads/course-1.jpg" alt=""></a>
+                                <a href="course.php"><img src="uploads/course-1.jpg" alt=""></a>
                                 <div class="wishlist">
                                     <a href=""><i class="far fa-heart"></i></a>
                                 </div>
                             </div>
                             <div class="text">
                                 <h2>
-                                    <a href="course.html">WordPress Theme Development</a>
+                                    <a href="course.php">WordPress Theme Development</a>
                                 </h2>
                                 <div class="category">
                                     <span class="badge bg-primary"><a href="">Web Development</a></span>
@@ -399,14 +399,14 @@
                     <div class="col-xl-4 col-lg-6 col-md-12">
                         <div class="item pb_25">
                             <div class="photo">
-                                <a href="course.html"><img src="uploads/course-2.jpg" alt=""></a>
+                                <a href="course.php"><img src="uploads/course-2.jpg" alt=""></a>
                                 <div class="wishlist">
                                     <a href=""><i class="far fa-heart"></i></a>
                                 </div>
                             </div>
                             <div class="text">
                                 <h2>
-                                    <a href="course.html">Laravel Framework Full Course</a>
+                                    <a href="course.php">Laravel Framework Full Course</a>
                                 </h2>
                                 <div class="category">
                                     <span class="badge bg-primary"><a href="">Web Development</a></span>
@@ -436,14 +436,14 @@
                     <div class="col-xl-4 col-lg-6 col-md-12">
                         <div class="item pb_25">
                             <div class="photo">
-                                <a href="course.html"><img src="uploads/course-3.jpg" alt=""></a>
+                                <a href="course.php"><img src="uploads/course-3.jpg" alt=""></a>
                                 <div class="wishlist">
                                     <a href=""><i class="far fa-heart"></i></a>
                                 </div>
                             </div>
                             <div class="text">
                                 <h2>
-                                    <a href="course.html">Complete Learning with Python</a>
+                                    <a href="course.php">Complete Learning with Python</a>
                                 </h2>
                                 <div class="category">
                                     <span class="badge bg-primary"><a href="">Web Development</a></span>
@@ -473,14 +473,14 @@
                     <div class="col-xl-4 col-lg-6 col-md-12">
                         <div class="item pb_25">
                             <div class="photo">
-                                <a href="course.html"><img src="uploads/course-4.jpg" alt=""></a>
+                                <a href="course.php"><img src="uploads/course-4.jpg" alt=""></a>
                                 <div class="wishlist">
                                     <a href=""><i class="far fa-heart"></i></a>
                                 </div>
                             </div>
                             <div class="text">
                                 <h2>
-                                    <a href="course.html">Laravel Framework Full Course</a>
+                                    <a href="course.php">Laravel Framework Full Course</a>
                                 </h2>
                                 <div class="category">
                                     <span class="badge bg-primary"><a href="">Web Development</a></span>
@@ -510,14 +510,14 @@
                     <div class="col-xl-4 col-lg-6 col-md-12">
                         <div class="item pb_25">
                             <div class="photo">
-                                <a href="course.html"><img src="uploads/course-1.jpg" alt=""></a>
+                                <a href="course.php"><img src="uploads/course-1.jpg" alt=""></a>
                                 <div class="wishlist">
                                     <a href=""><i class="far fa-heart"></i></a>
                                 </div>
                             </div>
                             <div class="text">
                                 <h2>
-                                    <a href="course.html">WordPress Theme Development</a>
+                                    <a href="course.php">WordPress Theme Development</a>
                                 </h2>
                                 <div class="category">
                                     <span class="badge bg-primary"><a href="">Web Development</a></span>

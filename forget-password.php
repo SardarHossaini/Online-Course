@@ -7,7 +7,7 @@
                 <h2>Forget Password</h2>
                 <div class="breadcrumb-container">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item active">Forget Password</li>
                     </ol>
                 </div>
@@ -41,7 +41,7 @@
                                 <button type="submit" class="btn btn-primary bg-website">
                                     Submit
                                 </button>
-                                <a href="login.html" class="primary-color">Back to Login Page</a>
+                                <a href="login.php" class="primary-color">Back to Login Page</a>
                             </div>
                         </div>
                         <!-- // form content -->
@@ -57,7 +57,7 @@
                                 <button type="submit" class="btn btn-primary bg-website">
                                     Submit
                                 </button>
-                                <a href="login.html" class="primary-color">Back to Login Page</a>
+                                <a href="login.php" class="primary-color">Back to Login Page</a>
                             </div>
                         </div>
                         <!-- // form content -->

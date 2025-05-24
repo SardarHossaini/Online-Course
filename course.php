@@ -19,7 +19,7 @@
                     <span class="std">1200 Students</span>
                 </div>
                 <div class="author">
-                    Created by <a href="instructor.html">Morshedul Arefin</a>
+                    Created by <a href="instructor.php">Morshedul Arefin</a>
                 </div>
             </div>
         </div>

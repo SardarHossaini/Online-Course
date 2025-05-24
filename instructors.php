@@ -7,7 +7,7 @@
                 <h2>Instructors</h2>
                 <div class="breadcrumb-container">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item active">Instructors</li>
                     </ol>
                 </div>
@@ -25,7 +25,7 @@
                         <img src="uploads/instructor-1.jpg" alt="" />
                     </div>
                     <div class="text">
-                        <h2><a href="instructor.html">Pat Flynn</a></h2>
+                        <h2><a href="instructor.php">Pat Flynn</a></h2>
                         <div class="designation">Laravel Developer</div>
                         <div class="rating">
                             <i class="fas fa-star"></i> 4.5 (20 Ratings)
@@ -47,7 +47,7 @@
                         <img src="uploads/instructor-2.jpg" alt="" />
                     </div>
                     <div class="text">
-                        <h2><a href="instructor.html">David Beckham</a></h2>
+                        <h2><a href="instructor.php">David Beckham</a></h2>
                         <div class="designation">PHP Developer</div>
                         <div class="rating">
                             <i class="fas fa-star"></i> 0.0 (0 Ratings)
@@ -69,7 +69,7 @@
                         <img src="uploads/instructor-3.jpg" alt="" />
                     </div>
                     <div class="text">
-                        <h2><a href="instructor.html">Peter Smith</a></h2>
+                        <h2><a href="instructor.php">Peter Smith</a></h2>
                         <div class="designation">Software Engineer</div>
                         <div class="rating">
                             <i class="fas fa-star"></i> 5.0 (2 Ratings)
@@ -91,7 +91,7 @@
                         <img src="uploads/instructor-4.jpg" alt="" />
                     </div>
                     <div class="text">
-                        <h2><a href="instructor.html">Brent Grundy</a></h2>
+                        <h2><a href="instructor.php">Brent Grundy</a></h2>
                         <div class="designation">Software Manager</div>
                         <div class="rating">
                             <i class="fas fa-star"></i> 0.0 (0 Ratings)
@@ -113,7 +113,7 @@
                         <img src="uploads/instructor-1.jpg" alt="" />
                     </div>
                     <div class="text">
-                        <h2><a href="instructor.html">Pat Flynn</a></h2>
+                        <h2><a href="instructor.php">Pat Flynn</a></h2>
                         <div class="designation">Python Developer</div>
                         <div class="rating">
                             <i class="fas fa-star"></i> 0.0 (0 Ratings)
@@ -135,7 +135,7 @@
                         <img src="uploads/instructor-2.jpg" alt="" />
                     </div>
                     <div class="text">
-                        <h2><a href="instructor.html">David Beckham</a></h2>
+                        <h2><a href="instructor.php">David Beckham</a></h2>
                         <div class="designation">React Developer</div>
                         <div class="rating">
                             <i class="fas fa-star"></i> 0.0 (0 Ratings)
@@ -157,7 +157,7 @@
                         <img src="uploads/instructor-3.jpg" alt="" />
                     </div>
                     <div class="text">
-                        <h2><a href="instructor.html">Peter Smith</a></h2>
+                        <h2><a href="instructor.php">Peter Smith</a></h2>
                         <div class="designation">Web Designer</div>
                         <div class="rating">
                             <i class="fas fa-star"></i> 0.0 (0 Ratings)
@@ -179,7 +179,7 @@
                         <img src="uploads/instructor-4.jpg" alt="" />
                     </div>
                     <div class="text">
-                        <h2><a href="instructor.html">Brent Grundy</a></h2>
+                        <h2><a href="instructor.php">Brent Grundy</a></h2>
                         <div class="designation">Graphic Designer</div>
                         <div class="rating">
                             <i class="fas fa-star"></i> 0.0 (0 Ratings)

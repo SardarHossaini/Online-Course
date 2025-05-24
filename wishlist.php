@@ -7,7 +7,7 @@
                 <h2>Wishlist</h2>
                 <div class="breadcrumb-container">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item active">Wishlist</li>
                     </ol>
                 </div>
@@ -34,7 +34,7 @@
                             <td>
                                 <img src="uploads/course-1.jpg" alt="" class="w-150">
                             </td>
-                            <td><a href="course.html" class="course_name">WordPress Theme Development</a></td>
+                            <td><a href="course.php" class="course_name">WordPress Theme Development</a></td>
                             <td>$29</td>
                             <td>
                                 <a href="" class="btn btn-danger" onClick="return confirm('Are you sure?')">X</a>
@@ -45,7 +45,7 @@
                             <td>
                                 <img src="uploads/course-2.jpg" alt="" class="w-150">
                             </td>
-                            <td><a href="course.html" class="course_name">Laravel From Basic To Advanced</a></td>
+                            <td><a href="course.php" class="course_name">Laravel From Basic To Advanced</a></td>
                             <td>$39</td>
                             <td>
                                 <a href="" class="btn btn-danger" onClick="return confirm('Are you sure?')">X</a>

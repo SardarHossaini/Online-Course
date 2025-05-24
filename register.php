@@ -7,7 +7,7 @@
                 <h2>Create Account</h2>
                 <div class="breadcrumb-container">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item active">Create Account</li>
                     </ol>
                 </div>
@@ -55,7 +55,7 @@
                                 </button>
                             </div>
                             <div class="mb-3">
-                                <a href="login.html" class="primary-color">Existing User? Login Now</a>
+                                <a href="login.php" class="primary-color">Existing User? Login Now</a>
                             </div>
                         </div>
                         <!-- // form content -->
@@ -89,7 +89,7 @@
                                 </button>
                             </div>
                             <div class="mb-3">
-                                <a href="login.html" class="primary-color">Existing User? Login Now</a>
+                                <a href="login.php" class="primary-color">Existing User? Login Now</a>
                             </div>
                         </div>
                         <!-- // form content -->

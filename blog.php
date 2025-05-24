@@ -7,7 +7,7 @@
                 <h2>Blog</h2>
                 <div class="breadcrumb-container">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item active">Blog</li>
                     </ol>
                 </div>
@@ -26,7 +26,7 @@
                     </div>
                     <div class="text">
                         <h2>
-                            <a href="post.html">Partnering to create a strong community</a>
+                            <a href="post.php">Partnering to create a strong community</a>
                         </h2>
                         <div class="short-des">
                             <p>
@@ -43,7 +43,7 @@
                     </div>
                     <div class="text">
                         <h2>
-                            <a href="post.html">Turning your emergency donation into instant aid</a>
+                            <a href="post.php">Turning your emergency donation into instant aid</a>
                         </h2>
                         <div class="short-des">
                             <p>
@@ -60,7 +60,7 @@
                     </div>
                     <div class="text">
                         <h2>
-                            <a href="post.html">Charity provides educational boost for children</a>
+                            <a href="post.php">Charity provides educational boost for children</a>
                         </h2>
                         <div class="short-des">
                             <p>
@@ -77,7 +77,7 @@
                     </div>
                     <div class="text">
                         <h2>
-                            <a href="post.html">Partnering to create a strong community</a>
+                            <a href="post.php">Partnering to create a strong community</a>
                         </h2>
                         <div class="short-des">
                             <p>
@@ -94,7 +94,7 @@
                     </div>
                     <div class="text">
                         <h2>
-                            <a href="post.html">Turning your emergency donation into instant aid</a>
+                            <a href="post.php">Turning your emergency donation into instant aid</a>
                         </h2>
                         <div class="short-des">
                             <p>
@@ -111,7 +111,7 @@
                     </div>
                     <div class="text">
                         <h2>
-                            <a href="post.html">Charity provides educational boost for children</a>
+                            <a href="post.php">Charity provides educational boost for children</a>
                         </h2>
                         <div class="short-des">
                             <p>
@@ -128,7 +128,7 @@
                     </div>
                     <div class="text">
                         <h2>
-                            <a href="post.html">Partnering to create a strong community</a>
+                            <a href="post.php">Partnering to create a strong community</a>
                         </h2>
                         <div class="short-des">
                             <p>
@@ -145,7 +145,7 @@
                     </div>
                     <div class="text">
                         <h2>
-                            <a href="post.html">Turning your emergency donation into instant aid</a>
+                            <a href="post.php">Turning your emergency donation into instant aid</a>
                         </h2>
                         <div class="short-des">
                             <p>

@@ -7,7 +7,7 @@
                 <h2>Orders</h2>
                 <div class="breadcrumb-container">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item active">Orders</li>
                     </ol>
                 </div>
@@ -23,28 +23,28 @@
                 <div class="card">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item active">
-                            <a href="student-dashboard.html">Dashboard</a>
+                            <a href="student-dashboard.php">Dashboard</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="student-enrolled-courses.html">Enrolled Courses</a>
+                            <a href="student-enrolled-courses.php">Enrolled Courses</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="student-order.html">Orders</a>
+                            <a href="student-order.php">Orders</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="student-wishlist.html">Wishlist</a>
+                            <a href="student-wishlist.php">Wishlist</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="student-message.html">Message</a>
+                            <a href="student-message.php">Message</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="student-review.html">Reviews</a>
+                            <a href="student-review.php">Reviews</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="student-profile.html">Edit Profile</a>
+                            <a href="student-profile.php">Edit Profile</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="login.html">Logout</a>
+                            <a href="login.php">Logout</a>
                         </li>
                     </ul>
                 </div>
@@ -67,7 +67,7 @@
                             <tr>
                                 <td>1</td>
                                 <td>
-                                    <a href="course.html" class="text-decoration-underline">WordPress Theme Development</a>
+                                    <a href="course.php" class="text-decoration-underline">WordPress Theme Development</a>
                                 </td>
                                 <td>$39</td>
                                 <td>Paypal</td>
@@ -77,13 +77,13 @@
                                 </td>
                                 <td>
                                     <a href="" class="btn btn-secondary btn-sm mb-1 w-100-p" data-bs-toggle="modal" data-bs-target="#exampleModal">Detail</a>
-                                    <a href="student-order-invoice.html" class="btn btn-secondary btn-sm w-100-p">Invoice</a>
+                                    <a href="student-order-invoice.php" class="btn btn-secondary btn-sm w-100-p">Invoice</a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>2</td>
                                 <td>
-                                    <a href="course.html" class="text-decoration-underline">Laravel Full Course</a>
+                                    <a href="course.php" class="text-decoration-underline">Laravel Full Course</a>
                                 </td>
                                 <td>$49</td>
                                 <td>Stripe</td>
@@ -93,7 +93,7 @@
                                 </td>
                                 <td>
                                     <a href="" class="btn btn-secondary btn-sm mb-1 w-100-p">Detail</a>
-                                    <a href="student-order-invoice.html" class="btn btn-secondary btn-sm w-100-p">Invoice</a>
+                                    <a href="student-order-invoice.php" class="btn btn-secondary btn-sm w-100-p">Invoice</a>
                                 </td>
                             </tr>
                             <!-- Modal -->

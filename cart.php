@@ -7,7 +7,7 @@
                 <h2>Cart</h2>
                 <div class="breadcrumb-container">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item active">Cart</li>
                     </ol>
                 </div>
@@ -86,7 +86,7 @@
                     </div>
 
                     <div class="checkout">
-                        <a href="checkout.html" class="btn btn-primary">Checkout</a>
+                        <a href="checkout.php" class="btn btn-primary">Checkout</a>
                     </div>
 
                 </div>

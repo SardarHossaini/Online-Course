@@ -5,11 +5,11 @@
                         <div class="item pb_50">
                             <h2 class="heading">Navigate</h2>
                             <ul class="useful-links">
-                                <li><a href="index.html"><i class="fas fa-angle-right"></i> Home</a></li>
-                                <li><a href="courses.html"><i class="fas fa-angle-right"></i> Courses</a></li>
-                                <li><a href="instructors.html"><i class="fas fa-angle-right"></i> Instructors</a></li>
-                                <li><a href="terms.html"><i class="fas fa-angle-right"></i> Terms & Conditions</a></li>
-                                <li><a href="privacy.html"><i class="fas fa-angle-right"></i> Privacy Policy</a></li>
+                                <li><a href="index.php"><i class="fas fa-angle-right"></i> Home</a></li>
+                                <li><a href="courses.php"><i class="fas fa-angle-right"></i> Courses</a></li>
+                                <li><a href="instructors.php"><i class="fas fa-angle-right"></i> Instructors</a></li>
+                                <li><a href="terms.php"><i class="fas fa-angle-right"></i> Terms & Conditions</a></li>
+                                <li><a href="privacy.php"><i class="fas fa-angle-right"></i> Privacy Policy</a></li>
                             </ul>
                         </div>
                     </div>

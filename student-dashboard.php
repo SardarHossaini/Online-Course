@@ -7,7 +7,7 @@
                 <h2>Dashboard</h2>
                 <div class="breadcrumb-container">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item active">Dashboard</li>
                     </ol>
                 </div>
@@ -23,28 +23,28 @@
                 <div class="card">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item active">
-                            <a href="student-dashboard.html">Dashboard</a>
+                            <a href="student-dashboard.php">Dashboard</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="student-enrolled-courses.html">Enrolled Courses</a>
+                            <a href="student-enrolled-courses.php">Enrolled Courses</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="student-order.html">Orders</a>
+                            <a href="student-order.php">Orders</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="student-wishlist.html">Wishlist</a>
+                            <a href="student-wishlist.php">Wishlist</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="student-message.html">Message</a>
+                            <a href="student-message.php">Message</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="student-review.html">Reviews</a>
+                            <a href="student-review.php">Reviews</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="student-profile.html">Edit Profile</a>
+                            <a href="student-profile.php">Edit Profile</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="login.html">Logout</a>
+                            <a href="login.php">Logout</a>
                         </li>
                     </ul>
                 </div>

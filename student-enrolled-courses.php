@@ -7,7 +7,7 @@
                 <h2>Enrolled Courses</h2>
                 <div class="breadcrumb-container">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item active">Enrolled Courses</li>
                     </ol>
                 </div>
@@ -23,28 +23,28 @@
                 <div class="card">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item active">
-                            <a href="student-dashboard.html">Dashboard</a>
+                            <a href="student-dashboard.php">Dashboard</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="student-enrolled-courses.html">Enrolled Courses</a>
+                            <a href="student-enrolled-courses.php">Enrolled Courses</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="student-order.html">Orders</a>
+                            <a href="student-order.php">Orders</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="student-wishlist.html">Wishlist</a>
+                            <a href="student-wishlist.php">Wishlist</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="student-message.html">Message</a>
+                            <a href="student-message.php">Message</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="student-review.html">Reviews</a>
+                            <a href="student-review.php">Reviews</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="student-profile.html">Edit Profile</a>
+                            <a href="student-profile.php">Edit Profile</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="login.html">Logout</a>
+                            <a href="login.php">Logout</a>
                         </li>
                     </ul>
                 </div>
@@ -54,11 +54,11 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="item pb_25">
                             <div class="photo">
-                                <a href="course.html"><img src="uploads/course-1.jpg" alt=""></a>
+                                <a href="course.php"><img src="uploads/course-1.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h2>
-                                    <a href="course.html">WordPress Theme Development</a>
+                                    <a href="course.php">WordPress Theme Development</a>
                                 </h2>
                                 <div class="category">
                                     <span class="badge bg-primary"><a href="">Web Development</a></span>
@@ -88,11 +88,11 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="item pb_25">
                             <div class="photo">
-                                <a href="course.html"><img src="uploads/course-2.jpg" alt=""></a>
+                                <a href="course.php"><img src="uploads/course-2.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h2>
-                                    <a href="course.html">Laravel Framework Full Course</a>
+                                    <a href="course.php">Laravel Framework Full Course</a>
                                 </h2>
                                 <div class="category">
                                     <span class="badge bg-primary"><a href="">Web Development</a></span>

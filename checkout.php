@@ -7,7 +7,7 @@
                 <h2>Checkout</h2>
                 <div class="breadcrumb-container">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item active">Checkout</li>
                     </ol>
                 </div>
@@ -93,7 +93,7 @@
                             <img src="uploads/course-1.jpg" alt="">
                         </div>
                         <div class="course-content">
-                            <h3><a href="course.html">Introduction to Mobile App Development</a></h3>
+                            <h3><a href="course.php">Introduction to Mobile App Development</a></h3>
                             <p>Price: $39</p>
                         </div>
                     </div>
@@ -102,7 +102,7 @@
                             <img src="uploads/course-2.jpg" alt="">
                         </div>
                         <div class="course-content">
-                            <h3><a href="course.html">Mastering in Web Development</a></h3>
+                            <h3><a href="course.php">Mastering in Web Development</a></h3>
                             <p>Price: $49</p>
                         </div>
                     </div>
@@ -114,12 +114,12 @@
                 </div>
 
                 <div class="agree">
-                    By completing your purchase you agree to these <a href="terms.html">Terms of Service</a>.
+                    By completing your purchase you agree to these <a href="terms.php">Terms of Service</a>.
                 </div>
 
                 <div class="proceed">
                     <button type="submit" class="btn btn-primary">Proceed</button>
-                    <a href="cart.html">Back to Cart</a>
+                    <a href="cart.php">Back to Cart</a>
                 </div>
 
             </div>

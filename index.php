@@ -15,7 +15,7 @@
                                         We have hosted around 2,000 courses worldwide and helped people to learn and grow. Currently, we are teaching around 15,000 people. So we hope you would enjoy the course.
                                     </p>
                                     <div class="button-style-1 mt_20">
-                                        <a href="courses.html">Explore Courses</a>
+                                        <a href="courses.php">Explore Courses</a>
                                     </div>
                                 </div>
                             </div>
@@ -40,7 +40,7 @@
                         </p>
                     </div>
                     <div class="right">
-                        <a href="course-category.html">View All <i class="fas fa-long-arrow-alt-right"></i></a>
+                        <a href="course-category.php">View All <i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -50,97 +50,97 @@
                 <div class="course-category-carousel owl-carousel">
                     <div class="item pb_25 mr_10 ml_10">
                         <div class="icon">
-                            <a href="courses.html">
+                            <a href="courses.php">
                                 <i class="fas fa-laptop-code"></i>
                             </a>
                         </div>
                         <div class="text">
                             <h2>
-                                <a href="courses.html">Web Design</a>
+                                <a href="courses.php">Web Design</a>
                             </h2>
                         </div>
                     </div>
                     <div class="item pb_25 mr_10 ml_10">
                         <div class="icon">
-                            <a href="courses.html">
+                            <a href="courses.php">
                                 <i class="fas fa-code"></i>
                             </a>
                         </div>
                         <div class="text">
                             <h2>
-                                <a href="courses.html">Web Development</a>
+                                <a href="courses.php">Web Development</a>
                             </h2>
                         </div>
                     </div>
                     <div class="item pb_25 mr_10 ml_10">
                         <div class="icon">
-                            <a href="courses.html">
+                            <a href="courses.php">
                                 <i class="fas fa-paint-brush"></i>
                             </a>
                         </div>
                         <div class="text">
                             <h2>
-                                <a href="courses.html">Graphic Design</a>
+                                <a href="courses.php">Graphic Design</a>
                             </h2>
                         </div>
                     </div>
                     <div class="item pb_25 mr_10 ml_10">
                         <div class="icon">
-                            <a href="courses.html">
+                            <a href="courses.php">
                                 <i class="fas fa-mobile-alt"></i>
                             </a>
                         </div>
                         <div class="text">
                             <h2>
-                                <a href="courses.html">UI and UX Design</a>
+                                <a href="courses.php">UI and UX Design</a>
                             </h2>
                         </div>
                     </div>
                     <div class="item pb_25 mr_10 ml_10">
                         <div class="icon">
-                            <a href="courses.html">
+                            <a href="courses.php">
                                 <i class="fas fa-tablet-alt"></i>
                             </a>
                         </div>
                         <div class="text">
                             <h2>
-                                <a href="courses.html">App Development</a>
+                                <a href="courses.php">App Development</a>
                             </h2>
                         </div>
                     </div>
                     <div class="item pb_25 mr_10 ml_10">
                         <div class="icon">
-                            <a href="courses.html">
+                            <a href="courses.php">
                                 <i class="fas fa-camera"></i>
                             </a>
                         </div>
                         <div class="text">
                             <h2>
-                                <a href="courses.html">Digital Marketing</a>
+                                <a href="courses.php">Digital Marketing</a>
                             </h2>
                         </div>
                     </div>
                     <div class="item pb_25 mr_10 ml_10">
                         <div class="icon">
-                            <a href="courses.html">
+                            <a href="courses.php">
                                 <i class="fas fa-code"></i>
                             </a>
                         </div>
                         <div class="text">
                             <h2>
-                                <a href="courses.html">Sales Technique</a>
+                                <a href="courses.php">Sales Technique</a>
                             </h2>
                         </div>
                     </div>
                     <div class="item pb_25 mr_10 ml_10">
                         <div class="icon">
-                            <a href="courses.html">
+                            <a href="courses.php">
                                 <i class="fas fa-chart-line"></i>
                             </a>
                         </div>
                         <div class="text">
                             <h2>
-                                <a href="courses.html">Business Development</a>
+                                <a href="courses.php">Business Development</a>
                             </h2>
                         </div>
                     </div>
@@ -210,7 +210,7 @@
                         </p>
                     </div>
                     <div class="right">
-                        <a href="courses.html">View All <i class="fas fa-long-arrow-alt-right"></i></a>
+                        <a href="courses.php">View All <i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -221,14 +221,14 @@
 
                     <div class="item pb_25">
                         <div class="photo">
-                            <a href="course.html"><img src="uploads/course-1.jpg" alt=""></a>
+                            <a href="course.php"><img src="uploads/course-1.jpg" alt=""></a>
                             <div class="wishlist">
                                 <a href=""><i class="far fa-heart"></i></a>
                             </div>
                         </div>
                         <div class="text">
                             <h2>
-                                <a href="course.html">WordPress Theme Development</a>
+                                <a href="course.php">WordPress Theme Development</a>
                             </h2>
                             <div class="category">
                                 <span class="badge bg-primary"><a href="">Web Development</a></span>
@@ -257,14 +257,14 @@
 
                     <div class="item pb_25">
                         <div class="photo">
-                            <a href="course.html"><img src="uploads/course-2.jpg" alt=""></a>
+                            <a href="course.php"><img src="uploads/course-2.jpg" alt=""></a>
                             <div class="wishlist">
                                 <a href=""><i class="far fa-heart"></i></a>
                             </div>
                         </div>
                         <div class="text">
                             <h2>
-                                <a href="course.html">Laravel Framework Full Course</a>
+                                <a href="course.php">Laravel Framework Full Course</a>
                             </h2>
                             <div class="category">
                                 <span class="badge bg-primary"><a href="">Web Development</a></span>
@@ -293,14 +293,14 @@
                 
                     <div class="item pb_25">
                         <div class="photo">
-                            <a href="course.html"><img src="uploads/course-3.jpg" alt=""></a>
+                            <a href="course.php"><img src="uploads/course-3.jpg" alt=""></a>
                             <div class="wishlist">
                                 <a href=""><i class="far fa-heart"></i></a>
                             </div>
                         </div>
                         <div class="text">
                             <h2>
-                                <a href="course.html">Complete Learning with Python</a>
+                                <a href="course.php">Complete Learning with Python</a>
                             </h2>
                             <div class="category">
                                 <span class="badge bg-primary"><a href="">Web Development</a></span>
@@ -329,14 +329,14 @@
                 
                     <div class="item pb_25">
                         <div class="photo">
-                            <a href="course.html"><img src="uploads/course-4.jpg" alt=""></a>
+                            <a href="course.php"><img src="uploads/course-4.jpg" alt=""></a>
                             <div class="wishlist">
                                 <a href=""><i class="far fa-heart"></i></a>
                             </div>
                         </div>
                         <div class="text">
                             <h2>
-                                <a href="course.html">Laravel Framework Full Course</a>
+                                <a href="course.php">Laravel Framework Full Course</a>
                             </h2>
                             <div class="category">
                                 <span class="badge bg-primary"><a href="">Web Development</a></span>
@@ -365,14 +365,14 @@
                 
                     <div class="item pb_25">
                         <div class="photo">
-                            <a href="course.html"><img src="uploads/course-1.jpg" alt=""></a>
+                            <a href="course.php"><img src="uploads/course-1.jpg" alt=""></a>
                             <div class="wishlist">
                                 <a href=""><i class="far fa-heart"></i></a>
                             </div>
                         </div>
                         <div class="text">
                             <h2>
-                                <a href="course.html">WordPress Theme Development</a>
+                                <a href="course.php">WordPress Theme Development</a>
                             </h2>
                             <div class="category">
                                 <span class="badge bg-primary"><a href="">Web Development</a></span>
@@ -401,14 +401,14 @@
                 
                     <div class="item pb_25">
                         <div class="photo">
-                            <a href="course.html"><img src="uploads/course-2.jpg" alt=""></a>
+                            <a href="course.php"><img src="uploads/course-2.jpg" alt=""></a>
                             <div class="wishlist">
                                 <a href=""><i class="far fa-heart"></i></a>
                             </div>
                         </div>
                         <div class="text">
                             <h2>
-                                <a href="course.html">Laravel Framework Full Course</a>
+                                <a href="course.php">Laravel Framework Full Course</a>
                             </h2>
                             <div class="category">
                                 <span class="badge bg-primary"><a href="">Web Development</a></span>
@@ -437,14 +437,14 @@
                 
                     <div class="item pb_25">
                         <div class="photo">
-                            <a href="course.html"><img src="uploads/course-3.jpg" alt=""></a>
+                            <a href="course.php"><img src="uploads/course-3.jpg" alt=""></a>
                             <div class="wishlist">
                                 <a href=""><i class="far fa-heart"></i></a>
                             </div>
                         </div>
                         <div class="text">
                             <h2>
-                                <a href="course.html">Complete Learning with Python</a>
+                                <a href="course.php">Complete Learning with Python</a>
                             </h2>
                             <div class="category">
                                 <span class="badge bg-primary"><a href="">Web Development</a></span>
@@ -473,14 +473,14 @@
                 
                     <div class="item pb_25">
                         <div class="photo">
-                            <a href="course.html"><img src="uploads/course-4.jpg" alt=""></a>
+                            <a href="course.php"><img src="uploads/course-4.jpg" alt=""></a>
                             <div class="wishlist">
                                 <a href=""><i class="far fa-heart"></i></a>
                             </div>
                         </div>
                         <div class="text">
                             <h2>
-                                <a href="course.html">Laravel Framework Full Course</a>
+                                <a href="course.php">Laravel Framework Full Course</a>
                             </h2>
                             <div class="category">
                                 <span class="badge bg-primary"><a href="">Web Development</a></span>
@@ -526,7 +526,7 @@
                         </p>
                     </div>
                     <div class="right">
-                        <a href="instructors.html">View All <i class="fas fa-long-arrow-alt-right"></i></a>
+                        <a href="instructors.php">View All <i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -538,7 +538,7 @@
                         <img src="uploads/instructor-1.jpg" alt="" />
                     </div>
                     <div class="text">
-                        <h2><a href="instructor.html">Pat Flynn</a></h2>
+                        <h2><a href="instructor.php">Pat Flynn</a></h2>
                         <div class="designation">Laravel Developer</div>
                         <div class="rating">
                             <i class="fas fa-star"></i> 4.5 (20 Ratings)
@@ -560,7 +560,7 @@
                         <img src="uploads/instructor-2.jpg" alt="" />
                     </div>
                     <div class="text">
-                        <h2><a href="instructor.html">David Beckham</a></h2>
+                        <h2><a href="instructor.php">David Beckham</a></h2>
                         <div class="designation">PHP Developer</div>
                         <div class="rating">
                             <i class="fas fa-star"></i> 0.0 (0 Ratings)
@@ -582,7 +582,7 @@
                         <img src="uploads/instructor-3.jpg" alt="" />
                     </div>
                     <div class="text">
-                        <h2><a href="instructor.html">Peter Smith</a></h2>
+                        <h2><a href="instructor.php">Peter Smith</a></h2>
                         <div class="designation">Software Engineer</div>
                         <div class="rating">
                             <i class="fas fa-star"></i> 5.0 (2 Ratings)
@@ -604,7 +604,7 @@
                         <img src="uploads/instructor-4.jpg" alt="" />
                     </div>
                     <div class="text">
-                        <h2><a href="instructor.html">Brent Grundy</a></h2>
+                        <h2><a href="instructor.php">Brent Grundy</a></h2>
                         <div class="designation">Software Manager</div>
                         <div class="rating">
                             <i class="fas fa-star"></i> 0.0 (0 Ratings)
@@ -703,7 +703,7 @@
                         </p>
                     </div>
                     <div class="right">
-                        <a href="blog.html">View All <i class="fas fa-long-arrow-alt-right"></i></a>
+                        <a href="blog.php">View All <i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -716,7 +716,7 @@
                     </div>
                     <div class="text">
                         <h2>
-                            <a href="post.html">How to Analyze Learning Outcomes with Your LMS</a>
+                            <a href="post.php">How to Analyze Learning Outcomes with Your LMS</a>
                         </h2>
                         <div class="short-des">
                             <p>
@@ -733,7 +733,7 @@
                     </div>
                     <div class="text">
                         <h2>
-                            <a href="post.html">Choose the Perfect LMS for Your Educational Institution</a>
+                            <a href="post.php">Choose the Perfect LMS for Your Educational Institution</a>
                         </h2>
                         <div class="short-des">
                             <p>
@@ -750,7 +750,7 @@
                     </div>
                     <div class="text">
                         <h2>
-                            <a href="post.html">Maximize the Engagement - Tips for Leveraging Your LMS</a>
+                            <a href="post.php">Maximize the Engagement - Tips for Leveraging Your LMS</a>
                         </h2>
                         <div class="short-des">
                             <p>
@@ -767,7 +767,7 @@
                     </div>
                     <div class="text">
                         <h2>
-                            <a href="post.html">The Future of Learning - AI is Transforming LMS Platforms</a>
+                            <a href="post.php">The Future of Learning - AI is Transforming LMS Platforms</a>
                         </h2>
                         <div class="short-des">
                             <p>
