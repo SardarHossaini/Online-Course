@@ -1,3 +1,8 @@
+<?php 
+$cur_page=substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -49,10 +54,10 @@
                     <div class="col-md-6 right-side">
                         <ul class="right">
                             <li class="menu">
-                                <a href="login.html"><i class="fas fa-sign-in-alt"></i> Login</a>
+                                <a href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
                             </li>
                             <li class="menu">
-                                <a href="register.html"><i class="fas fa-user"></i> Sign Up</a>
+                                <a href="register.php"><i class="fas fa-user"></i> Sign Up</a>
                             </li>
                         </ul>
                     </div>
@@ -63,7 +68,7 @@
         <div class="navbar-area" id="stickymenu">
             <!-- Menu For Mobile Device -->
             <div class="mobile-nav">
-                <a href="index.html" class="logo">
+                <a href="index.php" class="logo">
                     <img src="uploads/logo.png" alt="">
                 </a>
             </div>
@@ -72,38 +77,38 @@
             <div class="main-nav">
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="index.php">
                             <img src="uploads/logo.png" alt="">
                         </a>
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav ml-auto">
-                                <li class="nav-item active">
-                                    <a href="index.html" class="nav-link">Home</a>
+                                <li class="nav-item <?= $cur_page=='index.php'?'active':'' ?>">
+                                    <a href="index.php" class="nav-link">Home</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="courses.html" class="nav-link">Courses</a>
+                                <li class="nav-item <?= $cur_page=='courses.php'?'active':'' ?>">
+                                    <a href="courses.php" class="nav-link">Courses</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="instructors.html" class="nav-link">Instructors</a>
+                                <li class="nav-item <?= $cur_page=='instructors.php'?'active':'' ?>">
+                                    <a href="instructors.php" class="nav-link">Instructors</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="blog.html" class="nav-link">Blog</a>
+                                <li class="nav-item <?= $cur_page=='blog.php'?'active':'' ?>">
+                                    <a href="blog.php" class="nav-link">Blog</a>
                                 </li>
-                                <li class="nav-item dropdown">
+                                <li class="nav-item dropdown <?= $cur_page=='about.php'|| $cur_page=='privacy.php' || $cur_page=='terms.php' || $cur_page=='faq.php' || $cur_page=='page.php' ?'active':'' ?>">
                                     <a class="nav-link dropdown-toggle" href="javascript:void;" id="galleryDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Pages
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="galleryDropdown">
-                                        <li><a class="dropdown-item" href="about.html">About Us</a></li>
-                                        <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
-                                        <li><a class="dropdown-item" href="terms.html">Terms and Conditions</a></li>
-                                        <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
-                                        <li><a class="dropdown-item" href="page.html">Custom Page 1</a></li>
-                                        <li><a class="dropdown-item" href="page.html">Custom Page 2</a></li>
+                                        <li><a class="dropdown-item" href="about.php">About Us</a></li>
+                                        <li><a class="dropdown-item" href="privacy.php">Privacy Policy</a></li>
+                                        <li><a class="dropdown-item" href="terms.php">Terms and Conditions</a></li>
+                                        <li><a class="dropdown-item" href="faq.php">FAQ</a></li>
+                                        <li><a class="dropdown-item" href="page.php">Custom Page 1</a></li>
+                                        <li><a class="dropdown-item" href="page.php">Custom Page 2</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="contact.html" class="nav-link">Contact Us</a>
+                                <li class="nav-item <?= $cur_page=='contact.php'?'active':'' ?>">
+                                    <a href="contact.php" class="nav-link">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -117,13 +122,13 @@
                                 </form>
                             </div>
                             <div class="cart">
-                                <a href="cart.html">
+                                <a href="cart.php">
                                     <i class="fas fa-shopping-cart"></i>
                                 </a>
                                 <span class="number">0</span>
                             </div>
                             <div class="wishlist">
-                                <a href="wishlist.html">
+                                <a href="wishlist.php">
                                     <i class="far fa-heart"></i>
                                 </a>
                                 <span class="number">0</span>
