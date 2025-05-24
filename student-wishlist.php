@@ -1,0 +1,96 @@
+<?php include "header.php"; ?>
+
+<div class="page-top" style="background-image: url('uploads/banner.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Wishlist</h2>
+                <div class="breadcrumb-container">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active">Wishlist</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page-content user-panel pt_70 pb_70">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-12">
+                <div class="card">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item active">
+                            <a href="student-dashboard.html">Dashboard</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="student-enrolled-courses.html">Enrolled Courses</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="student-order.html">Orders</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="student-wishlist.html">Wishlist</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="student-message.html">Message</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="student-review.html">Reviews</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="student-profile.html">Edit Profile</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="login.html">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-12">
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <tbody>
+                            <tr>
+                                <th>SL</th>
+                                <th>Photo</th>
+                                <th>Course</th>
+                                <th class="w-100">Action</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    <img src="uploads/course-1.jpg" alt="" class="w-200">
+                                </td>
+                                <td>
+                                    WordPress Theme Development
+                                </td>
+                                <td>
+                                    <a href="course.html" class="btn btn-primary btn-sm"><i class="fas fa-eye"></i></a>
+                                    <a href="" class="btn btn-danger btn-sm" onClick="return confirm('Are You Sure?')"><i class="fas fa-trash"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    <img src="uploads/course-2.jpg" alt="" class="w-200">
+                                </td>
+                                <td>
+                                    Laravel from Basic to Advanced
+                                </td>
+                                <td>
+                                    <a href="course.html" class="btn btn-primary btn-sm"><i class="fas fa-eye"></i></a>
+                                    <a href="" class="btn btn-danger btn-sm" onClick="return confirm('Are You Sure?')"><i class="fas fa-trash"></i></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php include "footer.php"; ?>
