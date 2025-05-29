@@ -1,6 +1,5 @@
 <?php 
 $cur_page=substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
-
 ?>
 
 <!DOCTYPE html>
@@ -24,6 +23,7 @@ $cur_page=substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1)
         <link rel="stylesheet" href="dist-front/css/meanmenu.css">
         <link rel="stylesheet" href="dist-front/css/spacing.css">
         <link rel="stylesheet" href="dist-front/css/style.css">
+        <link rel="stylesheet" href="dist-front/css/iziToast.min.css">
         
         <!-- All Javascripts -->
         <script src="dist-front/js/jquery-3.7.1.min.js"></script>
@@ -38,6 +38,7 @@ $cur_page=substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1)
         <script src="dist-front/js/counterup.min.js"></script>
         <script src="dist-front/js/multi-countdown.js"></script>
         <script src="dist-front/js/jquery.meanmenu.js"></script>
+        <script src="dist-front/js/iziToast.min.js"></script>
 
         <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;900&display=swap" rel="stylesheet">
     </head>

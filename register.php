@@ -1,4 +1,40 @@
-<?php include "header.php"; ?>
+<?php 
+include __DIR__."/header.php";
+include __DIR__."/config/config.php";
+?>
+
+<?php
+
+if(!empty($_POST)){
+    try{
+        if(empty($_POST['name'])){
+            throw new Exception("name is required");
+        }
+        if(empty($_POST['email'])){
+            throw new Exception("email is required");
+        }
+        if(!filter_var($_POST['email'],FILTER_VALIDATE_EMAIL)){
+            throw new Exception('email is invalid');
+        }
+        if(empty($_POST['password']) || empty($_POST['confirm_password'])){
+            throw new Exception('password is required');
+        }
+        if($_POST['password'] != $_POST['confirm_password']){
+            throw new Exception('password does not match');
+        }
+        $password=password_hash($_POST['password'],PASSWORD_DEFAULT);
+        $token=time();
+        $stsm=$pdo->prepare('INSERT INTO students(name,email,password,token,status) VALUE (?,?,?,?,?)');
+        $stsm->execute([$_POST['name'],$_POST['email'],$password,$token],0);
+    }catch(Exception $e){
+        $error_message=$e->getMessage();
+        $_SESSION['error_message']=$error_message;
+        // header('location:login.php');
+        exit;
+    }
+}
+
+?>
 
 <div class="page-top" style="background-image: url('uploads/banner.jpg')">
     <div class="container">
@@ -32,32 +68,34 @@
                 <div class="tab-content tab-login-register" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="student" role="tabpanel" aria-labelledby="student-tab" tabindex="0">
                         <!-- form content -->
-                        <div class="login-form">
-                            <div class="mb-3">
-                                <label for="" class="form-label">Name *</label>
-                                <input type="text" class="form-control">
+                        <form action="register.php" method="post">
+                            <div class="login-form">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name *</label>
+                                    <input type="text" class="form-control" name="name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email Address *</label>
+                                    <input type="text" class="form-control" name="email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="password" class="form-label">Password *</label>
+                                    <input type="password" class="form-control" name="password">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="confirm_password" class="form-label">Confirm Password *</label>
+                                    <input type="password" class="form-control" name="confirm_password">
+                                </div>
+                                <div class="mb-3">
+                                    <button type="submit" class="btn btn-primary bg-website" name="form-student">
+                                        Create Account
+                                    </button>
+                                </div>
+                                <div class="mb-3">
+                                    <a href="login.php" class="primary-color">Existing User? Login Now</a>
+                                </div>
                             </div>
-                            <div class="mb-3">
-                                <label for="" class="form-label">Email Address *</label>
-                                <input type="text" class="form-control">
-                            </div>
-                            <div class="mb-3">
-                                <label for="" class="form-label">Password *</label>
-                                <input type="password" class="form-control">
-                            </div>
-                            <div class="mb-3">
-                                <label for="" class="form-label">Confirm Password *</label>
-                                <input type="password" class="form-control">
-                            </div>
-                            <div class="mb-3">
-                                <button type="submit" class="btn btn-primary bg-website">
-                                    Create Account
-                                </button>
-                            </div>
-                            <div class="mb-3">
-                                <a href="login.php" class="primary-color">Existing User? Login Now</a>
-                            </div>
-                        </div>
+                        </form>
                         <!-- // form content -->
                     </div>
                     <div class="tab-pane fade" id="instructor" role="tabpanel" aria-labelledby="instructor-tab" tabindex="0">
