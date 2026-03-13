@@ -55,7 +55,7 @@ This project uses these technologies:
 ---
 
 ## 📂 Project Structure
-
+```text
 Online-Course/
 ├── admin/ # Backend admin panel
 ├── admin_panel_html/ # HTML templates for admin panel
@@ -80,7 +80,7 @@ Online-Course/
 ├── student-review.php # Leave a review
 ├── terms.php # Terms of service
 └── faq.php # FAQ
-
+```
 ---
 
 ## 🛠 Installation & Setup
@@ -91,7 +91,7 @@ Follow these steps to run the project locally:
 ```bash
 git clone https://github.com/SardarHossaini/Online-Course.git
 cd Online-Course
-
+```
 Configure database settings
 
 Edit your database config file (e.g., in config/):
@@ -101,7 +101,7 @@ $dbUser = 'root';
 $dbPass = '';
 $dbName = 'online_course_db';
 
-📬 Contact
+## 📬 Contact
 
 Sardar Hossaini
 GitHub: https://github.com/SardarHossaini
